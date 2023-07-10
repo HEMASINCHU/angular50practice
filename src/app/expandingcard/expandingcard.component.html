@@ -1,0 +1,13 @@
+<div class="container">
+    <div
+      class="panel"
+      *ngFor="let panel of panels; let i = index"
+      [class.active]="i === activePanel"
+      [style.backgroundImage]="'url(' + panel.imageUrl + ')'"
+      (click)="setActivePanel(i)"
+    >
+      <h3>{{ panel.title }}</h3>
+    </div>
+  </div>
+  
+  
