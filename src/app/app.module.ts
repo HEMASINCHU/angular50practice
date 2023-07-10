@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExpandingcardComponent } from './expandingcard/expandingcard.component';
+import { ProgresstepComponent } from './progresstep/progresstep.component';
+import { HiddensearchComponent } from './hiddensearch/hiddensearch.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import { ExpandingcardComponent } from './expandingcard/expandingcard.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ExpandingcardComponent
+    ExpandingcardComponent,
+    ProgresstepComponent,
+    HiddensearchComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
